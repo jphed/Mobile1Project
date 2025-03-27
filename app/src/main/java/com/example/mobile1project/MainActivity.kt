@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Mobile1ProjectTheme {
-        Greeting("Alex")
+        Greeting("Jorge")
     }
 }
 

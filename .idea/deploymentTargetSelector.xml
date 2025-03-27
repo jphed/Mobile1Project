@@ -3,9 +3,12 @@
   <component name="deploymentTargetSelector">
     <selectionStates>
       <SelectionState runConfigName="app">
+<<<<<<< HEAD
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="MainActivity">
+=======
+>>>>>>> 30d1ae38a457f6e374d47f88d955b7a9ab8b1913
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
