@@ -13,15 +13,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import sum.views.SumAppView
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            SumAppView()
-        }
-    }
-}
-
 class SumViewModel : ViewModel() {
     var number1 by mutableStateOf(TextFieldValue(""))
     var number2 by mutableStateOf(TextFieldValue(""))
