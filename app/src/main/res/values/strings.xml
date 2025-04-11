@@ -1,13 +1,21 @@
 <resources>
-    <string name="app_name">Mobile1Project</string>
-    <string name="login_image_desc">Login image</string>
-    <string name="email_label">Email</string>
-    <string name="password_label">Password</string>
-    <string name="login_button">Login</string>
-    <string name="enter_weight">Enter weight (kg)</string>
-    <string name="enter_height">Enter height (m)</string>
-    <string name="calculate">Calculate</string>
-    <string name="correct_weight">Correct weight</string>
-    <string name="incorrect_weight">Overweight</string>
-    <string name="invalid_input">Invalid input</string>
+    <string name="login_image_desc">Illustration for Sign-In</string>
+    <string name="email_label">Email Address</string>
+    <string name="password_label">Enter Password</string>
+    <string name="login_button">Sign In</string>
+
+    <string name="bmi_calculator">Body Mass Index Tool</string>
+    <string name="weight_kg">Your Weight (kg)</string>
+    <string name="height_m">Your Height (m)</string>
+    <string name="calculate_bmi">Compute BMI</string>
+    <string name="bmi_result">Your BMI is: %1$s</string>
+    <string name="good_weight">✔ Healthy weight range</string>
+    <string name="bad_weight">❌ Weight not within ideal range</string>
+
+    <string name="app_name">Celsius Converter</string>
+    <string name="enter_celsius">Input Temperature in °C</string>
+    <string name="convert">Transform</string>
+    <string name="invalid_input">Input is not valid</string>
+    <string name="toast_invalid_number">Kindly provide a valid numeric value</string>
+    <string name="thermostat_description">Image of a Temperature Gauge</string>
 </resources>

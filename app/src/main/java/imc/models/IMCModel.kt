@@ -1,2 +1,0 @@
-package imc.models
-
