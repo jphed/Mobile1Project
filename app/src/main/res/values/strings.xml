@@ -1,21 +1,11 @@
 <resources>
-    <string name="login_image_desc">Illustration for Sign-In</string>
-    <string name="email_label">Email Address</string>
-    <string name="password_label">Enter Password</string>
-    <string name="login_button">Sign In</string>
-
-    <string name="bmi_calculator">Body Mass Index Tool</string>
-    <string name="weight_kg">Your Weight (kg)</string>
-    <string name="height_m">Your Height (m)</string>
-    <string name="calculate_bmi">Compute BMI</string>
-    <string name="bmi_result">Your BMI is: %1$s</string>
-    <string name="good_weight">✔ Healthy weight range</string>
-    <string name="bad_weight">❌ Weight not within ideal range</string>
-
-    <string name="app_name">Celsius Converter</string>
-    <string name="enter_celsius">Input Temperature in °C</string>
-    <string name="convert">Transform</string>
-    <string name="invalid_input">Input is not valid</string>
-    <string name="toast_invalid_number">Kindly provide a valid numeric value</string>
-    <string name="thermostat_description">Image of a Temperature Gauge</string>
+    <string name="app_name">Mobile1Project</string>
+    <string name="email">correo electrónico</string>
+    <string name="Clasificación">Tipo</string>
+    <string name="Calcular">Obtener resultado</string>
+    <string name="peso">Masa</string>
+    <string name="altura">Estatura</string>
+    <string name="calculadora">Calculadora de IMC</string>
+    <string name="temperatura">Grado térmico</string>
+    <string name="celcius">Centígrados</string>
 </resources>

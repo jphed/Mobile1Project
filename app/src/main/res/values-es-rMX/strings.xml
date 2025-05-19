@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="login_image_desc">Ilustración de acceso</string>
-    <string name="email_label">Dirección de correo</string>
-    <string name="password_label">Clave de acceso</string>
-    <string name="login_button">Acceder</string>
-
-    <string name="bmi_calculator">Herramienta de IMC</string>
-    <string name="weight_kg">Tu peso (kg)</string>
-    <string name="height_m">Tu estatura (m)</string>
-    <string name="calculate_bmi">Obtener IMC</string>
-    <string name="bmi_result">Tu IMC es: %1$s</string>
-    <string name="good_weight">✔ Peso adecuado</string>
-    <string name="bad_weight">❌ Peso fuera del rango saludable</string>
-
-    <string name="app_name">Convertidor de Celsius</string>
-    <string name="enter_celsius">Escriba temperatura en °C</string>
-    <string name="convert">Transformar</string>
-    <string name="invalid_input">Dato no válido</string>
-    <string name="toast_invalid_number">Ingrese un número correcto, por favor</string>
+    <string name="app_name">Proyecto Mobiles</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="Clasificación">Clasificación</string>
+    <string name="Calcular">Calcular</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="calculadora">Calculadora de IMC</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="celcius">Celsius</string>
 </resources>
