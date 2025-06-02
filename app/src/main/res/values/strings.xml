@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Mobile1Project</string>
-    <string name="email">correo electrónico</string>
-    <string name="Clasificación">Tipo</string>
-    <string name="Calcular">Obtener resultado</string>
-    <string name="peso">Masa</string>
-    <string name="altura">Estatura</string>
-    <string name="calculadora">Calculadora de IMC</string>
-    <string name="temperatura">Grado térmico</string>
-    <string name="celcius">Centígrados</string>
+    <string name="email">email</string>
+    <string name="Clasificación">Category</string>
+    <string name="Calcular">Calculate</string>
+    <string name="peso">Weight</string>
+    <string name="altura">Height</string>
+    <string name="calculadora">IMC Calculator</string>
+    <string name="temperatura">Temperature</string>
+    <string name="celcius">Celsius</string>
 </resources>

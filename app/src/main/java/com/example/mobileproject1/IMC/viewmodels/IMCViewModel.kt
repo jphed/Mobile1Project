@@ -1,9 +1,9 @@
 package com.example.mobileproject1.IMC.viewmodels
 
-import android.content.Context
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import androidx.compose.runtime.*
-import com.example.mobileproject1.R
 
 class BmiViewModel : ViewModel() {
 
@@ -13,12 +13,12 @@ class BmiViewModel : ViewModel() {
     var message by mutableStateOf("")
         private set
 
-    fun calculateBmi(weightKg: String, heightM: String, context: Context) {
+    fun calculateBmi(weightKg: String, heightM: String) {
         val weight = weightKg.toFloatOrNull()
         val height = heightM.toFloatOrNull()
 
         if (weight == null || height == null || height <= 0) {
-            bmi = context.getString(R.string.invalid_input)
+            bmi = "Entrada inválida"
             message = ""
             return
         }
@@ -27,9 +27,9 @@ class BmiViewModel : ViewModel() {
         bmi = String.format("%.2f", bmiValue)
 
         message = if (bmiValue in 19.0..24.9) {
-            context.getString(R.string.good_weight)
+            "Peso saludable"
         } else {
-            context.getString(R.string.bad_weight)
+            "Peso no saludable"
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.mobile1project
 
+import RestaurantViewModel
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,8 +14,8 @@ import com.example.mobile1project.ui.theme.Mobile1ProjectTheme
 
 class MainActivity : ComponentActivity() {
 
-    // ✅ ViewModel instanciado correctamente
     private val studentViewModel: StudentViewModel by viewModels()
+    private val restaurantViewModel: RestaurantViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,8 +25,10 @@ class MainActivity : ComponentActivity() {
                     LaunchedEffect(Unit) {
                         studentViewModel.getStudents()
                     }
-                    TabBarNavigationView(studentViewModel = studentViewModel)
-
+                    TabBarNavigationView(
+                        studentViewModel = studentViewModel,
+                        restaurantViewModel = restaurantViewModel // ✅ nuevo parámetro
+                    )
                 }
             }
         }

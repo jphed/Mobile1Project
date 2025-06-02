@@ -18,7 +18,7 @@ fun ThirdPartialView(navController: NavController) {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Parcial 3",
+            text = "Tercer Parcial",
             fontSize = 24.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.fillMaxWidth()
@@ -30,28 +30,20 @@ fun ThirdPartialView(navController: NavController) {
             onClick = {
                 navController.navigate("StudentList")
             },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.primary,
-                contentColor = MaterialTheme.colorScheme.onPrimary
-            )
+            modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Estudiantes")
+            Text("Lista")
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        // Botón de gimnasios eliminado
 
         Button(
             onClick = {
-                navController.navigate("Examen3P")
+                navController.navigate("Examen tercer parcial")
             },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.primary,
-                contentColor = MaterialTheme.colorScheme.onPrimary
-            )
+            modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Examen 3er parcial")
+            Text("Examen Tercer Parcial")
         }
     }
 }

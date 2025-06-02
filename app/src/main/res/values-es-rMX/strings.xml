@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Proyecto Mobiles</string>
-    <string name="email">Correo Electrónico</string>
-    <string name="Clasificación">Clasificación</string>
+    <string name="app_name">ProyectoMobiles</string>
+    <string name="email">Correo electronico</string>
+    <string name="Clasificación">Clasificacion</string>
     <string name="Calcular">Calcular</string>
     <string name="peso">Peso</string>
     <string name="altura">Altura</string>
     <string name="calculadora">Calculadora de IMC</string>
     <string name="temperatura">Temperatura</string>
-    <string name="celcius">Celsius</string>
+    <string name="celcius">Celcius</string>
 </resources>

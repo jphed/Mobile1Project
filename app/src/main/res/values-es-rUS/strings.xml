@@ -6,7 +6,7 @@
     <string name="Calcular">Calculate</string>
     <string name="peso">Weight</string>
     <string name="altura">Height</string>
-    <string name="calculadora">BMI Calculator</string>
-    <string name="temperatura">Temperature</string>
-    <string name="celcius">Celsius</string>
+    <string name="calculadora">IMC Calculator</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="celcius">Celcius</string>
 </resources>
